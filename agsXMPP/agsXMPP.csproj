@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>annotations</Nullable>
+
+		<DefineConstants>NET_2</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>agsXMPP.NetCore</PackageId>
+		<PackageLicenseUrl></PackageLicenseUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>xmpp; jabber; xmpp-im; jabber-im; xmpp client; xmpp component; xmpp server</PackageTags>
+		<PackageVersion>1.6.0</PackageVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>
