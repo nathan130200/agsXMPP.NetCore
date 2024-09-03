@@ -12,7 +12,16 @@
 		<PackageLicense>https://www.ag-software.net/agsxmpp-sdk/license/</PackageLicense>
 		<PackageTags>xmpp; jabber; xmpp-im; jabber-im; xmpp client; xmpp component; xmpp server</PackageTags>
 		<PackageVersion>1.6.0</PackageVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/nathan130200/agsXMPP.NetCore</RepositoryUrl>
 	</PropertyGroup>
+
+	<ItemGroup Condition="'$(Configuration)' == 'Release'">
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>

@@ -11,4 +11,4 @@ An fork to add .NET6.0+ support to classic XMPP library agsXMPP from AG-Software
 - For production ready i **strongly** recommend using the successors of agsXMPP such as [Matrix](https://www.ag-software.net/matrix-xmpp-sdk/) and [XmppDotNet](https://xmppdotnet.org/) in addition to being actively developed, it is also more secure and stable.
 
 
-You can find this releases on nuget: 
+You can find this releases on [NuGet](https://www.nuget.org/packages/agsXMPP.NetCore/).
